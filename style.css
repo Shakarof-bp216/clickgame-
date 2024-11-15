@@ -1,0 +1,69 @@
+.gamezone{
+    background-color: rgb(37, 35, 34);
+    height: 100vh;
+    width: 100%;
+}
+
+.contanier{
+    max-width: 1000px;
+    height: 100vh;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 30px;
+    
+}
+.top_page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_page *{
+cursor: pointer;
+}
+.top_page_center{
+    text-align: center;
+}
+.join{
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 29, 29);
+    border-radius: 9px;
+    margin-top: 20px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.mypoint{
+    margin-top: 30px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mypoint_img{
+    height: 100px;
+    width: 100px;
+}
+
+.mypoint_number{
+    font-size: 100px;
+    margin-left: 10px;
+}
+.yourleage{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.clickme{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    cursor: pointer;
+}
